@@ -22,7 +22,7 @@ export type ApplicationDataEventRecord = {
 };
 
 /**
- * Union type respresenting the ApplicationDataEvent data enum defined in Rust.
+ * Union type representing the ApplicationDataEvent data enum defined in Rust.
  *
  * NOTE: that it includes a `__kind` property which allows to narrow types in
  * switch/if statements.
