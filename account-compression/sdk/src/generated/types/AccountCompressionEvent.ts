@@ -24,7 +24,7 @@ export type AccountCompressionEventRecord = {
 };
 
 /**
- * Union type respresenting the AccountCompressionEvent data enum defined in Rust.
+ * Union type representing the AccountCompressionEvent data enum defined in Rust.
  *
  * NOTE: that it includes a `__kind` property which allows to narrow types in
  * switch/if statements.
