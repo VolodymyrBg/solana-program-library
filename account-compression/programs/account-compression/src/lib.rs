@@ -240,7 +240,7 @@ pub mod spl_account_compression {
     /// The canopy should be filled with all the nodes that are to the left of the rightmost
     /// leaf of the tree before calling `init_prepared_tree_with_root`. The canopy should not
     /// contain any nodes to the right of the rightmost leaf of the tree.
-    /// This instruction calculates and filles in all the canopy nodes "above" the provided ones.
+    /// This instruction calculates and fills in all the canopy nodes "above" the provided ones.
     /// The validation of the canopy is done in the `init_prepared_tree_with_root` instruction.
     pub fn append_canopy_nodes(
         ctx: Context<Modify>,
